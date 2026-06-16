@@ -11,7 +11,7 @@ function TicketList() {
   const loadTickets = async () => {
     try {
       const response = await axios.get(
-        `http://localhost:5000/api/tickets?search=${search}&status=${status}`
+        `https://customer-support-backend-cmk4.onrender.com/api/tickets?search=${search}&status=${status}`
       );
 
       setTickets(response.data);

@@ -14,7 +14,7 @@ function TicketDetails() {
   const loadTicket = async () => {
     try {
       const response = await axios.get(
-        `http://localhost:5000/api/tickets/${ticketId}`
+        `https://customer-support-backend-cmk4.onrender.com/api/tickets/${ticketId}`
       );
 
       setTicket(response.data);
@@ -28,7 +28,7 @@ function TicketDetails() {
   const loadNotes = async () => {
     try {
       const response = await axios.get(
-        `http://localhost:5000/api/tickets/${ticketId}/notes`
+        `https://customer-support-backend-cmk4.onrender.com/api/tickets/${ticketId}/notes`
       );
 
       setNotes(response.data);
@@ -45,7 +45,7 @@ function TicketDetails() {
 
     try {
       await axios.post(
-        `http://localhost:5000/api/tickets/${ticketId}/notes`,
+        `https://customer-support-backend-cmk4.onrender.com/api/tickets/${ticketId}/notes`,
         {
           note_text: newNote
         }
@@ -65,7 +65,7 @@ function TicketDetails() {
   const updateStatus = async () => {
     try {
       await axios.put(
-        `http://localhost:5000/api/tickets/${ticketId}`,
+        `https://customer-support-backend-cmk4.onrender.com/api/tickets/${ticketId}`,
         {
           status
         }

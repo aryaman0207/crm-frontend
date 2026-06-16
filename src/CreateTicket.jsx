@@ -14,7 +14,7 @@ function CreateTicket({ onTicketCreated }) {
 
     try {
       await axios.post(
-        "http://localhost:5000/api/tickets",
+        "https://customer-support-backend-cmk4.onrender.com/api/tickets",
         form
       );
 
