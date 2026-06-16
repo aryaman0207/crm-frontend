@@ -1,16 +1,61 @@
-# React + Vite
+Customer Support Ticketing CRM System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Candidate Name: Aryaman Singh
 
-Currently, two official plugins are available:
+Project Overview:
+A full-stack Customer Support Ticketing CRM System developed using React, Node.js, Express.js, and SQLite. The application allows users to create, manage, search, filter, and update customer support tickets.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Technology Stack:
 
-## React Compiler
+Frontend:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* Axios
+* Tailwind CSS
 
-## Expanding the ESLint configuration
+Backend:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Node.js
+* Express.js
+* SQLite3
+
+Deployment:
+
+* Frontend: Vercel
+* Backend: Render
+
+GitHub Repositories:
+
+Frontend Repository:
+https://github.com/aryaman0207/crm-frontend
+
+Backend Repository:
+https://github.com/aryaman0207/crm-backend
+
+Live Application URLs:
+
+Frontend:
+https://crm-frontend-gamma-rose.vercel.app/
+
+Backend:
+https://customer-support-backend-cmk4.onrender.com
+
+Demo Video:
+https://drive.google.com/file/d/15EaVYdzlIhIk2PIcazDCYv3wcZbMXQd8/view?usp=drive_link
+
+Implemented Features:
+
+1. Create Support Tickets
+2. List All Tickets
+3. Search Tickets
+4. Filter Tickets by Status
+5. View Ticket Details
+6. Update Ticket Status
+7. Add Notes/Comments
+8. Responsive User Interface
+9. REST API Integration
+10. SQLite Database Storage
+
+Thank you for reviewing my submission.
+
